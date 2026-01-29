@@ -15,7 +15,7 @@ module AutoticketerModels
 
     PRIORITY = %w[low medium high].freeze
 
-    define_schema do
+    define_schema do 
       property :id, Integer, description: 'Unique identifier for the ticket'
       property :name, String, description: 'Title of the ticket'
       property :description, String, description: 'Detailed description of the ticket'
