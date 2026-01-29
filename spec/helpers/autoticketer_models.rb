@@ -23,7 +23,7 @@ module AutoticketerModels
       property :assignees, T::Array[String], description: 'List of users assigned to the ticket'
       property :subtasks, T.nilable(T::Array[Subtask]), description: 'List of subtasks associated with the ticket'
       property :dependencies, T.nilable(T::Array[Integer]),
-               description: 'List of ticket IDs that this ticket depends on' 
+               description: 'List of ticket IDs that this ticket depends on'
     end
   end
 
